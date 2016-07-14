@@ -1,3 +1,8 @@
+.env
+.deploy.env
+build
+.DS_store
+
 # Logs
 logs
 *.log
