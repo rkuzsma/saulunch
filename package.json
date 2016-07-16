@@ -4,6 +4,7 @@
   "description": "JavaScript API to parse SAU school lunch menus",
   "main": "index.js",
   "scripts": {
+    "test": "node spec/menus-test.js",
     "zip": "node-lambda package --environment prod",
     "deploy": "node-lambda deploy --environment prod"
   },
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.3.17",
-    "bluebird": "^3.4.0"
+    "bluebird": "^3.4.0",
+    "pdf2json": "^1.1.6"
   }
 }
