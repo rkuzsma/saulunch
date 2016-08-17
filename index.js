@@ -1,21 +1,22 @@
 "use strict";
 /**
-JavaScript API to parse SAU lunch menus
+JavaScript API to load SAU lunch menus calendar
 */
 
-const menus = require('./lib/menus');
+const calendar = require('./lib/calendar');
 
 exports.handler = (event, context, callback) => {
   try {
     console.log('Received event:', JSON.stringify(event, null, 2));
 
-    menus.fetchMenus().then(function(result) {
-      console.log('Fetched menus');
-      callback(null, result);
+    let calendarFilePath = __dirname + '/resources/generated/calendar.json';
+    calendar.readCalendar(calendarFilePath).then(function(calendar) {
+      console.log('Fetched calendar');
+      callback(null, calendar);
     })
     .catch(function(err) {
       console.log(err.stack);
-      callback(new Error('Error fetching menus'));
+      callback(new Error('Error fetching calendar'));
     });
   } catch (e) {
     console.log(e.stack);

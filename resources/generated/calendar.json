@@ -1,0 +1,252 @@
+{
+ "Wed Jun 01 2016 00:00:00 GMT-0400 (EDT)": {
+  "date": "1",
+  "food": [
+   {
+    "text": "Mini Pancakes"
+   },
+   {
+    "text": "with Syrup Cup"
+   },
+   {
+    "text": "Sliced Ham"
+   },
+   {
+    "text": "Hash Brown Potato"
+   },
+   {
+    "text": "Carrot Sticks"
+   },
+   {
+    "text": "Cinnamon Applesauce"
+   },
+   {
+    "text": "Variety of Milk"
+   }
+  ],
+  "events": []
+ },
+ "Thu Jun 02 2016 00:00:00 GMT-0400 (EDT)": {
+  "date": "2",
+  "food": [
+   {
+    "text": "Mitchell's Fresh Salsa"
+   },
+   {
+    "text": "Bag-O-Taco"
+   },
+   {
+    "text": "w/Chicken"
+   },
+   {
+    "text": "Refried Beans"
+   },
+   {
+    "text": "Steamed Corn"
+   },
+   {
+    "text": "Sweet Peas"
+   },
+   {
+    "text": "Diced Pineapple"
+   },
+   {
+    "text": "Variety of Milk"
+   }
+  ],
+  "events": []
+ },
+ "Fri Jun 03 2016 00:00:00 GMT-0400 (EDT)": {
+  "date": "3",
+  "food": [
+   {
+    "text": "Chicken Salad Wrap"
+   },
+   {
+    "text": "Goldfish Crackers"
+   },
+   {
+    "text": "Carrot Sticks"
+   },
+   {
+    "text": "Mixed Fruit"
+   },
+   {
+    "text": "Variety of Milk"
+   }
+  ],
+  "events": []
+ },
+ "Mon Jun 06 2016 00:00:00 GMT-0400 (EDT)": {
+  "date": "6",
+  "food": [
+   {
+    "text": "Homemade Cheese "
+   },
+   {
+    "text": "Pizza"
+   },
+   {
+    "text": "Green Beans"
+   },
+   {
+    "text": "Steamed Carrots"
+   },
+   {
+    "text": "Peach Cup"
+   },
+   {
+    "text": "Variety of Milk"
+   }
+  ],
+  "events": []
+ },
+ "Tue Jun 07 2016 00:00:00 GMT-0400 (EDT)": {
+  "date": "7",
+  "food": [
+   {
+    "text": "Chicken Patty "
+   },
+   {
+    "text": "Sandwich"
+   },
+   {
+    "text": "Broccoli"
+   },
+   {
+    "text": "Sweet Peas"
+   },
+   {
+    "text": "Pears in Light Syrup"
+   },
+   {
+    "text": "Variety of Milk"
+   }
+  ],
+  "events": [
+   {
+    "text": "LATE START DAY"
+   }
+  ]
+ },
+ "Wed Jun 08 2016 00:00:00 GMT-0400 (EDT)": {
+  "date": "8",
+  "food": [
+   {
+    "text": "Hamburger on a Bun"
+   },
+   {
+    "text": "Pasta Salad"
+   },
+   {
+    "text": "Baked Potato Chips"
+   },
+   {
+    "text": "Frozen 100% Juice Pop"
+   },
+   {
+    "text": "Variety of Milk"
+   }
+  ],
+  "events": [
+   {
+    "text": "FIELDDAY"
+   }
+  ]
+ },
+ "Thu Jun 09 2016 00:00:00 GMT-0400 (EDT)": {
+  "date": "9",
+  "food": [
+   {
+    "text": "Chicken Fajitas"
+   },
+   {
+    "text": "Steamed Corn"
+   },
+   {
+    "text": "Mixed Vegetables"
+   },
+   {
+    "text": "Diced Pineapple"
+   },
+   {
+    "text": "Variety of Milk"
+   }
+  ],
+  "events": []
+ },
+ "Fri Jun 10 2016 00:00:00 GMT-0400 (EDT)": {
+  "date": "10",
+  "food": [
+   {
+    "text": "Hot Dog in a Bun"
+   },
+   {
+    "text": "Green Beans"
+   },
+   {
+    "text": "Oven Fries"
+   },
+   {
+    "text": "Farm Fresh Apples"
+   },
+   {
+    "text": "Variety of Milk"
+   }
+  ],
+  "events": []
+ },
+ "Mon Jun 13 2016 00:00:00 GMT-0400 (EDT)": {
+  "date": "13",
+  "food": [
+   {
+    "text": "Green Beans"
+   },
+   {
+    "text": "Steamed Carrots"
+   },
+   {
+    "text": "Peach Cup"
+   },
+   {
+    "text": "Variety of Milk"
+   }
+  ],
+  "events": [
+   {
+    "text": "Stuffed Crust Pizza"
+   }
+  ]
+ },
+ "Tue Jun 14 2016 00:00:00 GMT-0400 (EDT)": {
+  "date": "14",
+  "food": [
+   {
+    "text": "Ham & Cheese Wrap"
+   },
+   {
+    "text": "with Lettuce & Tomato"
+   },
+   {
+    "text": "Baked Potato Chips"
+   },
+   {
+    "text": "Mixed Vegetables"
+   },
+   {
+    "text": "Mixed Fruit"
+   },
+   {
+    "text": "Variety of Milk"
+   }
+  ],
+  "events": [
+   {
+    "text": "LAST DAYOF "
+   },
+   {
+    "text": "SCHOOL"
+   }
+  ]
+ }
+}

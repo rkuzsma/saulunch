@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node spec/menus-test.js",
+    "generateCalendar": "node bin/generate-calendar.js",
     "zip": "node-lambda package --environment prod",
     "deploy": "node-lambda deploy --environment prod"
   },

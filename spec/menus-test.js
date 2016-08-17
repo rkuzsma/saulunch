@@ -1,6 +1,7 @@
-const menus = require(__dirname + '/../lib/menus.js');
+// TODO Actually make this test case assert some real test conditions
+const menuParser = require(__dirname + '/../lib/menuParser.js');
 
-menus.parseMenu(__dirname + '/Wilkins_2016-06.pdf')
+menuParser.parseMenu(__dirname + '/../resources/pdf/Wilkins_2016-06.pdf')
 .then(function(menu) {
   console.log(JSON.stringify(menu, null, ' '));
 })

@@ -1,3 +1,4 @@
+// TODO Actually make this test case assert some real test conditions
 const idx = require(__dirname + '/../index.js');
 
 var event = {event: "foo"};
