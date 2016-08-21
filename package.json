@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha -w",
-    "generateCalendar": "node bin/generate-calendar.js",
+    "generateCalendars": "node bin/generateCalendars.js",
     "zip": "node-lambda package --environment prod",
     "deploy": "node-lambda deploy --environment prod"
   },
@@ -23,7 +23,8 @@
     "mocha": "^2.5.3",
     "node-lambda": "^0.8.5",
     "prompt": "^1.0.0",
-    "should": "^11.1.0"
+    "should": "^11.1.0",
+    "timekeeper": "^0.1.1"
   },
   "dependencies": {
     "aws-sdk": "^2.3.17",

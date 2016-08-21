@@ -5,7 +5,7 @@
 const Promise = require('bluebird');
 const calendarLib = require(__dirname + '/../lib/calendar.js');
 const pdfMenus = require(__dirname + '/../lib/pdfMenus.js');
-const outputFile = __dirname + '/../resources/generated/calendar.json';
+const outputFile = __dirname + '/../resources/generated/calendars.json';
 
 pdfMenus.pdfMenuPaths()
 .then(pdfMenus => {
@@ -13,7 +13,7 @@ pdfMenus.pdfMenuPaths()
   .then(calendar => {
     return calendarLib.saveCalendar(calendar, outputFile)
     .then(function() {
-      console.log(`Calendar saved to ${outputFile}`);
+      console.log(`All calendars saved to ${outputFile}`);
     });
   });
 })
