@@ -38,7 +38,7 @@ npm run-script deploy
 ## Publishing new API code:
 ```
 cd saulunch
-npm run zip && npm run deploy
+npm run deploy
 ```
 Open AWS API Gateway
 Click the SAUMenus resource, and click Actions->Deploy API.

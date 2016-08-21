@@ -6,8 +6,8 @@
   "scripts": {
     "test": "node_modules/.bin/mocha -w",
     "generateCalendars": "node bin/generateCalendars.js",
-    "zip": "node-lambda package --environment prod",
-    "deploy": "node-lambda deploy --environment prod"
+    "zip": "./build-deploy-zip.sh build",
+    "deploy": "./build-deploy-zip.sh deploy"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "chai-datetime": "^1.4.1",
     "lambda-local": "0.0.10",
     "mocha": "^2.5.3",
-    "node-lambda": "^0.8.5",
+    "node-lambda": "^0.8.7",
     "prompt": "^1.0.0",
     "should": "^11.1.0",
     "timekeeper": "^0.1.1"
