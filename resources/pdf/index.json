@@ -1,12 +1,10 @@
 [
   {
-    "year": 2016,
-    "month": 6,
+    "yyyy-mm-iso-8601": "2016-06",
     "filePath": "Wilkins_2016-06.pdf"
   },
   {
-    "year": 2016,
-    "month": 9,
+    "yyyy-mm-iso-8601": "2016-09",
     "filePath": "Clark_Wilkins_2016-09.pdf"
   }
 ]
